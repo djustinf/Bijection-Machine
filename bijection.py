@@ -1,5 +1,4 @@
 from collections import Counter
-import operator
 
 def bijection_machine(partition, A, B):
     A = [Counter(x) for x in A]
